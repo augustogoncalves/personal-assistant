@@ -42,6 +42,7 @@ CTRL + O (save)  CTRL + X (exit)
 npm install
 
 11. Setup the personal-assistant as autostart
+```
 Create a new file
   sudo nano /home/pi/personal-assistant.sh
 Add the following to this file (the folder should be the same as step 11)
@@ -58,3 +59,4 @@ add this .sh (script) to startup
 
 add the following line:
   /home/pi/personal-assistant.sh &
+```
