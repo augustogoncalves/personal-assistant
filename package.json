@@ -1,0 +1,28 @@
+{
+  "name": "personal-assistant",
+  "version": "0.0.1",
+  "description": "Help with your home activities",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustogoncalves/personal-assistant"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "Augusto Goncalves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/augustogoncalves/personal-assistant/issues"
+  },
+  "homepage": "https://github.com/augustogoncalves/personal-assistant",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.5"
+  }
+}
