@@ -2,6 +2,10 @@
 
 Basic voice activated app created for [Raspberry Pi 3](https://www.raspberrypi.org) with [NodeJS](https://nodejs.org) + [Electron](http://electron.atom.io/). Uses [Annyang](https://www.talater.com/annyang/) and [Responsive Voice](http://responsivevoice.org/) JavaScript libraries.
 
+# See it in action
+
+Check [this forum post with video](http://adndevblog.typepad.com/cloud_and_mobile/2016/04/raspberry-pi-3-nodejs-electron.html).
+
 # Setup
 
 1. [Download Raspbian Jessie](https://www.raspberrypi.org/downloads/raspbian/)
@@ -55,7 +59,8 @@ npm install
 ```
 Create a new file
   sudo nano /home/pi/personal-assistant.sh
-Add the following to this file (the folder should be the same as step 11)
+  
+Add the following to this file (the folder should be the same as step 9)
   !#/bin/bash
   cd /home/pi/Documents/personal-assistant && npm start
 CTRL + O (save)  CTRL + X (exit)
